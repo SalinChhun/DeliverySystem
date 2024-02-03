@@ -1,8 +1,8 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\homeController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ContactController;
 
@@ -17,29 +17,33 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/sample', function () {
-    return "wecome to salin chhun laravel";
-});
+// Route::get('/sample', function () {
+//     return "wecome to salin chhun laravel";
+// });
 
-Route::redirect('/here', 'there');
+// Route::redirect('/here', 'there');
 
-Route::get('/register', function () {
-    return view('register');
-});
+// Route::get('/register', function () {
+//     return view('register');
+// });
 
-Route::get('home', [homeController::class, 'index']);
+// Route::get('home', [homeController::class, 'index']);
 
-Route::get('contact', [ContactController::class, 'index']);
+// Route::get('contact', [ContactController::class, 'index']);
 
-Route::get('about', [AboutController::class, 'index']);
+// Route::get('about', [AboutController::class, 'index']);
 
-Route::get('register/save', [RegisterController ::class,'save']);
+// Route::get('register/save', [RegisterController ::class,'save']);
 
 
 // Route::controllers(RegisterController::class)->group(function(){
 //     Route::view('register');
 // });
+
+ Route::controller(HomeController::class)->group(function(){
+    Route::get('/', 'index');
+ }); 
