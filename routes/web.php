@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AddToCardController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
@@ -46,4 +47,6 @@ use App\Http\Controllers\ContactController;
 
  Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'index');
- }); 
+ });
+
+Route::get('all', [AddToCardController ::class,'index']);
