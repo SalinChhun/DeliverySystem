@@ -166,14 +166,24 @@
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
-<script src="{{asset('vendors/@popperjs/popper.min.js')}}"></script>
-<script src="{{asset('vendors/bootstrap/bootstrap.min.js')}}"></script>
-<script src="{{asset('vendors/is/is.min.js')}}"></script>
-<script src="{{asset('https://polyfill.io/v3/polyfill.min.js?features=window.scroll')}}"></script>
-<script src="{{asset('vendors/fontawesome/all.min.js')}}"></script>
-<script src="{{asset('assets/js/theme.js')}}"></script>
-
-<link href="{{asset('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap')}}"
+<script src="{{ asset('vendors/@popperjs/popper.min.js') }}"></script>
+<script src="{{ asset('vendors/bootstrap/bootstrap.min.js') }}"></script>
+<script src="{{ asset('vendors/is/is.min.js') }}"></script>
+<script src="{{ asset('https://polyfill.io/v3/polyfill.min.js?features=window.scroll') }}"></script>
+<script src="{{ asset('vendors/fontawesome/all.min.js') }}"></script>
+<script src="{{ asset('assets/js/theme.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+<!-- Check QTY -->
+<script src="{{ asset('https://code.jquery.com/jquery-3.4.1.min.js') }}"></script>
+<script src="{{ asset('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('cart/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('cart/lib/slick/slick.min.js') }}"></script>
+<script src="{{ asset('cart/main.js') }}"></script>
+<!-- Check QTY -->
+<link
+    href="{{ asset('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap') }}"
     rel="stylesheet">
 </body>
 

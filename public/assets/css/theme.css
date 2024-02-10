@@ -41,6 +41,78 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
 }
 
+/* .modal{
+    width: 90% !important;
+} */
+.modal-card-img{
+    height: 300px !important;
+}
+
+.variation{
+    background-color: rgb(245, 243, 243) !important;
+    border-radius: 15px;
+}
+.medium-check{
+    cursor: pointer;
+}
+.large-check{
+    cursor: pointer;
+}
+.small-check{
+    cursor: pointer;
+}
+.add-to-card{
+    width: 75%;
+    height: 100%;
+    border-radius: 13px;
+    background-color: #FFB30E;
+    border: none;
+}
+.footer-modal{
+    display: flex;
+    height: 50px;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+.qty{
+    width: 25%;
+    height: 70%;
+    gap: 8px;
+    display: flex;
+}
+.btn-sub{
+    border: 1px solid rgb(228, 227, 227);
+    background-color: white;
+    color: #FFB30E;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.btn-close-modal{
+    border: 1px solid rgb(228, 227, 227);
+    background-color: white;
+    color: #FFB30E;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.btn-plus{
+    border: 1px solid rgb(228, 227, 227);
+    background-color: white;
+    color: #FFB30E;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.re{
+    text-align: center;
+    font-weight: 600;
+    width: 30px;
+    border: none;
+}
 *,
 *::before,
 *::after {

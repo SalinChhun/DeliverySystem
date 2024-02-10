@@ -94,7 +94,7 @@
                                         <td>
                                             <div class="qty">
                                                 <button class="btn-minus"><i class="fa fa-minus"></i></button>
-                                                <input type="text" value="1">
+                                                <input type="text" >
                                                 <button class="btn-plus"><i class="fa fa-plus"></i></button>
                                             </div>
                                         </td>
@@ -217,13 +217,13 @@
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- JavaScript Libraries -->
+    <!-- Check QTY -->
     <script src="{{ asset('https://code.jquery.com/jquery-3.4.1.min.js') }}"></script>
     <script src="{{ asset('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('cart/lib/easing/easing.min.js') }}"></script>
     <script src="{{ asset('cart/lib/slick/slick.min.js') }}"></script>
 
-    <!-- Template Javascript -->
+    <!-- Check QTY -->
     <script src="{{ asset('cart/main.js') }}"></script>
 </body>
 

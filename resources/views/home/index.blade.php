@@ -73,8 +73,11 @@
             <div class="row h-100 gx-2 mt-7">
                 <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
                     <div class="card card-span h-100">
-                        <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                                src="assets/img/gallery/discount-item-1.png" alt="..." />
+
+
+                        <div class="position-relative" data-bs-toggle="modal" data-bs-target="#scrollBodyModal"> <img
+                                class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-1.png"
+                                alt="..." />
                             <div class="card-actions">
                                 <div class="badge badge-foodwagon bg-primary p-4">
                                     <div class="d-flex flex-between-center">
@@ -90,7 +93,61 @@
                             <h5 class="fw-bold text-1000 text-truncate">Flat Hill Slingback</h5><span
                                 class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days
                                     Remaining</span></span>
-                        </div><a class="stretched-link" href="#"></a>
+                        </div>
+
+                        {{-- modal card body --}}
+                        <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Flat Hill Slingback</h5>
+                                        <button data-bs-dismiss="modal" class="btn-close-modal">x</button>
+                                    </div>
+                                    <div class="modal-body h-9">
+
+                                        <img class="modal-card-img rounded-3 w-100"
+                                            src="assets/img/gallery/discount-item-1.png" alt="..." />
+
+                                        <h3 class="modal-title mt-3">Flat Hill Slingback</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet nunc massa,
+                                            sed posuere eros feugiat ac.</p>
+                                        <h5>$ 4.55</h5>
+
+                                        <div class="border p-3 variation">
+                                            <h5>Variation</h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input medium-check" type="radio"
+                                                    name="flexRadioDefault" id="flexRadioDefault1" />
+                                                <label class="form-check-label" for="flexRadioDefault1"> Medium</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input large-check" type="radio"
+                                                    name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                                <label class="form-check-label" for="flexRadioDefault2">Large</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input small-check" type="radio"
+                                                    name="flexRadioDefault" id="flexRadioDefault3" />
+                                                <label class="form-check-label" for="flexRadioDefault3">Small</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="footer-modal">
+                                            <div class="qty">
+                                                <button class="btn-sub">-</button>
+                                                <input class="re" type="text" value="1">
+                                                <button class="btn-plus">+</button>
+                                            </div>
+                                            <button class="add-to-card">Add to card</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
@@ -1053,7 +1110,8 @@
                                 <div class="col-md-3 hr-vertical">
                                     <div
                                         class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
-                                        <img src="assets/img/icons/quick-delivery.png" width="100" alt="..." />
+                                        <img src="assets/img/icons/quick-delivery.png" width="100"
+                                            alt="..." />
                                         <div class="d-flex d-lg-block d-xl-flex flex-center">
                                             <h2 class="fw-bolder text-1000 mb-0 text-gradient">Quick Delivery </h2>
                                         </div>
