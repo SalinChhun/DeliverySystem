@@ -71,150 +71,257 @@
 
         <div class="container">
             <div class="row h-100 gx-2 mt-7">
-                <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-                    <div class="card card-span h-100">
-
-
-                        <div class="position-relative" data-bs-toggle="modal" data-bs-target="#scrollBodyModal"> <img
-                                class="img-fluid rounded-3 w-100" src="assets/img/gallery/discount-item-1.png"
-                                alt="..." />
-                            <div class="card-actions">
-                                <div class="badge badge-foodwagon bg-primary p-4">
-                                    <div class="d-flex flex-between-center">
-                                        <div class="text-white fs-7">15</div>
-                                        <div class="d-block text-white fs-2">% <br />
-                                            <div class="fw-normal fs-1 mt-2">Off</div>
-                                        </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body px-0">
-                            <h5 class="fw-bold text-1000 text-truncate">Flat Hill Slingback</h5><span
-                                class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days
-                                    Remaining</span></span>
-                        </div>
-
-                        {{-- modal card body --}}
-                        <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Flat Hill Slingback</h5>
-                                        <button data-bs-dismiss="modal" class="btn-close-modal">x</button>
-                                    </div>
-                                    <div class="modal-body h-9">
-
-                                        <img class="modal-card-img rounded-3 w-100"
-                                            src="assets/img/gallery/discount-item-1.png" alt="..." />
-
-                                        <h3 class="modal-title mt-3">Flat Hill Slingback</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet nunc massa,
-                                            sed posuere eros feugiat ac.</p>
-                                        <h5>$ 4.55</h5>
-
-                                        <div class="border p-3 variation">
-                                            <h5>Variation</h5>
-                                            <div class="form-check">
-                                                <input class="form-check-input medium-check" type="radio"
-                                                    name="flexRadioDefault" id="flexRadioDefault1" />
-                                                <label class="form-check-label" for="flexRadioDefault1"> Medium</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input large-check" type="radio"
-                                                    name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                                <label class="form-check-label" for="flexRadioDefault2">Large</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input small-check" type="radio"
-                                                    name="flexRadioDefault" id="flexRadioDefault3" />
-                                                <label class="form-check-label" for="flexRadioDefault3">Small</label>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <div class="footer-modal">
-                                            <div class="qty">
-                                                <button class="btn-sub">-</button>
-                                                <input class="re" type="text" value="1">
-                                                <button class="btn-plus">+</button>
-                                            </div>
-                                            <button class="add-to-card">Add to card</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-                    <div class="card card-span h-100">
-                        <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                                src="assets/img/gallery/discount-item-2.png" alt="..." />
-                            <div class="card-actions">
-                                <div class="badge badge-foodwagon bg-primary p-4">
-                                    <div class="d-flex flex-between-center">
-                                        <div class="text-white fs-7">10</div>
-                                        <div class="d-block text-white fs-2">% <br />
-                                            <div class="fw-normal fs-1 mt-2">Off</div>
-                                        </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body px-0">
-                            <h5 class="fw-bold text-1000 text-truncate">Ocean Blue Ring</h5><span
-                                class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days
-                                    Remaining</span></span>
-                        </div><a class="stretched-link" href="#"></a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-                    <div class="card card-span h-100">
-                        <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                                src="assets/img/gallery/discount-item-3.png" alt="..." />
-                            <div class="card-actions">
-                                <div class="badge badge-foodwagon bg-primary p-4">
-                                    <div class="d-flex flex-between-center">
-                                        <div class="text-white fs-7">25</div>
-                                        <div class="d-block text-white fs-2">% <br />
-                                            <div class="fw-normal fs-1 mt-2">Off</div>
-                                        </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body px-0">
-                            <h5 class="fw-bold text-1000 text-truncate">Brown Leathered Wallet</h5><span
-                                class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days
-                                    Remaining</span></span>
-                        </div><a class="stretched-link" href="#"></a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3 mb-md-0 h-100 pb-4">
-                    <div class="card card-span h-100">
-                        <div class="position-relative"> <img class="img-fluid rounded-3 w-100"
-                                src="assets/img/gallery/discount-item-4.png" alt="..." />
-                            <div class="card-actions">
-                                <div class="badge badge-foodwagon bg-primary p-4">
-                                    <div class="d-flex flex-between-center">
-                                        <div class="text-white fs-7">20</div>
-                                        <div class="d-block text-white fs-2">% <br />
-                                            <div class="fw-normal fs-1 mt-2">Off</div>
-                                        </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body px-0">
-                            <h5 class="fw-bold text-1000 text-truncate">Silverside Wristwatch</h5><span
-                                class="badge bg-soft-danger py-2 px-3"><span class="fs-1 text-danger">6 days
-                                    Remaining</span></span>
-                        </div><a class="stretched-link" href="#"></a>
                     </div>
+                </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                    <div class="card card-background card-span text-white rounded-3">
+                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
+                        <div class="card-img-overlay ps-0">
+                            <span class="badge bg-danger p-2 ms-3">
+                                <i class="fas fa-tag me-2 fs-0"></i>
+                                <span class="fs-0">20% off</span></span>
+                            <span class="badge bg-primary ms-2 me-1 p-2">
+                                <i class="fas fa-clock me-1 fs-0"></i>
+                                <span class="fs-0">Fast</span>
+                            </span>
+                        </div>
+                        <div class="card-body ps-0">
+                            <div class="d-flex align-items-center mb-3">
+                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
+                                <div class="flex-1 ms-3">
+                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
+                                    <span class="text-primary fs--1 me-1">
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                    <div class="text-primary fs--1 me-1">
+                                        <i class="fas fa-clock me-1 fs-0"></i>
+                                        <span>20 min .</span>&nbsp;
+                                        <i class="fas fa-motorcycle me-2"></i>
+                                        <span>Free</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- modal card body --}}
+                <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Flat Hill Slingback</h5>
+                                <button data-bs-dismiss="modal" class="btn-close-modal">x</button>
+                            </div>
+                            <div class="modal-body h-9">
+
+                                <img class="modal-card-img rounded-3 w-100" src="assets/img/gallery/discount-item-1.png"
+                                    alt="..." />
+
+                                <h3 class="modal-title mt-3">Flat Hill Slingback</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet nunc massa,
+                                    sed posuere eros feugiat ac.</p>
+                                <h5>$ 4.55</h5>
+
+                                <div class="border p-3 variation">
+                                    <h5>Variation</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input medium-check" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault1" />
+                                        <label class="form-check-label" for="flexRadioDefault1"> Medium</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input large-check" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                        <label class="form-check-label" for="flexRadioDefault2">Large</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input small-check" type="radio"
+                                            name="flexRadioDefault" id="flexRadioDefault3" />
+                                        <label class="form-check-label" for="flexRadioDefault3">Small</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <div class="footer-modal">
+                                    <div class="qty">
+                                        <button class="btn-sub">-</button>
+                                        <input class="re" type="text" value="1">
+                                        <button class="btn-plus">+</button>
+                                    </div>
+                                    <button class="add-to-card">Add to card</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <a class="btn btn-lg btn-primary" href="#!">
+                        View All
+                        <i class="fas fa-chevron-right ms-2"> </i>
+                    </a>
                 </div>
             </div>
         </div><!-- end of .container-->
@@ -624,458 +731,6 @@
     <!-- <section> close ============================-->
     <!-- ============================================-->
 
-
-    <section id="testimonial">
-        <div class="container">
-            <div class="row h-100">
-                <div class="col-lg-7 mx-auto text-center mb-6">
-                    <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Featured Restaurants</h5>
-                </div>
-            </div>
-            <div class="row gx-2">
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">20% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/food-world-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">46</span>
-                                </div>
-                            </div><span class="badge bg-soft-danger p-2"><span class="fw-bold fs-1 text-danger">Opens
-                                    Tomorrow</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/pizza-hub.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/pizzahub-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Pizza hub</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">40</span>
-                                </div>
-                            </div><span class="badge bg-soft-danger p-2"><span class="fw-bold fs-1 text-danger">Opens
-                                    Tomorrow</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/donuts-hut.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/donuts-hut-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Donuts hut</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">20</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/donuthut.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/donut-hut-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Donuts hut</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">50</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/ruby-tuesday.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/ruby-tuesday-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Ruby tuesday</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">50</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/kuakata.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/kuakata-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Kuakata Fried Chicken</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">50</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/red-square.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/red-square-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Kuakata Fried Chicken</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">50</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
-                    <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100"
-                            src="assets/img/gallery/taco-bell.png" alt="..." />
-                        <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i
-                                    class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span
-                                class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span
-                                    class="fs-0">Fast</span></span></div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3"><img class="img-fluid"
-                                    src="assets/img/gallery/taco-bell-logo.png" alt="" />
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Taco bell</h5><span
-                                        class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span
-                                        class="mb-0 text-primary">50</span>
-                                </div>
-                            </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open
-                                    Now</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-center mt-5"> <a class="btn btn-lg btn-primary"
-                        href="#!">View All
-                        <i class="fas fa-chevron-right ms-2"> </i></a></div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="py-8 overflow-hidden">
-
-        <div class="container">
-            <div class="row flex-center mb-6">
-                <div class="col-lg-7">
-                    <h5 class="fw-bold fs-3 fs-lg-5 lh-sm text-center text-lg-start">Search by Food</h5>
-                </div>
-                <div class="col-lg-4 text-lg-end text-center"><a class="btn btn-lg text-800 me-2" href="#"
-                        role="button">VIEW
-                        ALL <i class="fas fa-chevron-right ms-2"></i></a></div>
-                <div class="col-lg-auto position-relative">
-                    <button class="carousel-control-prev s-icon-prev carousel-icon" type="button"
-                        data-bs-target="#carouselSearchByFood" data-bs-slide="prev"><span
-                            class="carousel-control-prev-icon hover-top-shadow" aria-hidden="true"></span><span
-                            class="visually-hidden">Previous</span></button>
-                    <button class="carousel-control-next s-icon-next carousel-icon" type="button"
-                        data-bs-target="#carouselSearchByFood" data-bs-slide="next"><span
-                            class="carousel-control-next-icon hover-top-shadow" aria-hidden="true"></span><span
-                            class="visually-hidden">Next</span></button>
-                </div>
-            </div>
-            <div class="row flex-center">
-                <div class="col-12">
-                    <div class="carousel slide" id="carouselSearchByFood" data-bs-touch="false"
-                        data-bs-interval="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <div class="row h-100 align-items-center">
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/search-pizza.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">pizza</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/burger.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Burger</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/noodles.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Noodles</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/sub-sandwich.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Sub-sandwiches
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/chowmein.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Chowmein</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/steak.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Steak</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <div class="row h-100 align-items-center">
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/search-pizza.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">pizza</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/burger.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Burger</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/noodles.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Noodles</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/sub-sandwich.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Sub-sandwiches
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/chowmein.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Chowmein</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/steak.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Steak</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <div class="row h-100 align-items-center">
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/search-pizza.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">pizza</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/burger.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Burger</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/noodles.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Noodles</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/sub-sandwich.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Sub-sandwiches
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/chowmein.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Chowmein</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/steak.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Steak</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row h-100 align-items-center">
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/search-pizza.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">pizza</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/burger.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Burger</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/noodles.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Noodles</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/sub-sandwich.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Sub-sandwiches
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100"
-                                                src="assets/img/gallery/chowmein.png" alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Chowmein</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-xl mb-5 h-100">
-                                        <div class="card card-span h-100 rounded-circle"><img
-                                                class="img-fluid rounded-circle h-100" src="assets/img/gallery/steak.png"
-                                                alt="..." />
-                                            <div class="card-body ps-0">
-                                                <h5 class="text-center fw-bold text-1000 text-truncate mb-2">Steak</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
     <section>
         <div class="bg-holder"
             style="background-image:url(assets/img/gallery/cta-one-bg.png);background-position:center;background-size:cover;">
@@ -1110,8 +765,7 @@
                                 <div class="col-md-3 hr-vertical">
                                     <div
                                         class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
-                                        <img src="assets/img/icons/quick-delivery.png" width="100"
-                                            alt="..." />
+                                        <img src="assets/img/icons/quick-delivery.png" width="100" alt="..." />
                                         <div class="d-flex d-lg-block d-xl-flex flex-center">
                                             <h2 class="fw-bolder text-1000 mb-0 text-gradient">Quick Delivery </h2>
                                         </div>
