@@ -45,8 +45,7 @@
         <div class="container">
             <a class="navbar-brand d-inline-flex" href="{{ url('/') }}">
                 <img class="d-inline-block" src="assets/img/gallery/logo.svg" alt="logo" />
-                <span
-                    class="text-1000 fs-3 fw-bold ms-2 text-gradient">fooda
+                <span class="text-1000 fs-3 fw-bold ms-2 text-gradient">fooda
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,9 +68,14 @@
                         <input class="form-control border-0 input-box bg-100" type="search" placeholder="Search Food"
                             aria-label="Search" />
                     </div>
+
+
                     <button class="btn btn-white shadow-warning text-warning" type="submit">
+
                         <i class="fas fa-user me-2"></i>
-                        Login
+                        <a href="{{ url('signin') }}">
+                            Login
+                        </a>
                     </button>
 
                     <button class="btn btn-white shadow-warning " type="submit">

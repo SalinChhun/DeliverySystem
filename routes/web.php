@@ -3,6 +3,8 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AddToCardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ShopController;
+use App\Http\Controllers\SigninController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ContactController;
@@ -50,3 +52,7 @@ use App\Http\Controllers\ContactController;
  });
 
 Route::get('all', [AddToCardController ::class,'index']);
+
+Route::get('shop', [ShopController ::class,'index']);
+
+Route::get('signin', [SigninController ::class,'index']);

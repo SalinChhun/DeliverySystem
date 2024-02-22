@@ -41,9 +41,9 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
 }
 
-/* .modal{
-    width: 90% !important;
-} */
+.h-100{
+    height: 200px;
+}
 .modal-card-img {
     height: 300px !important;
 }
