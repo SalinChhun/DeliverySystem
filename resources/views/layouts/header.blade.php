@@ -89,7 +89,7 @@
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal"
                         data-target="#exampleModalCenter">
-                        Launch demo modal
+                        Add New Product
                     </button>
                 </form>
             </div>
@@ -115,6 +115,29 @@
                         <input type="text" name="price" id="price " placeholder="Product Price">
                         <input type="text" name="description" id="description" placeholder="Product Description">
                         <input type="text" name="status" id="status" placeholder="Product Status">
+
+                        <br>
+                        <select name="category_id" class="form-select form-select-sm"
+                            aria-label=".form-select-sm example">
+                            @foreach ($getAllCategories as $cn)
+                                <option value="{{ $cn->id }}">{{ $cn->category_name }}</option>
+                            @endforeach
+                        </select>
+
+                        <br>
+                        
+                        
+                        <ul class="nav nav-tabs" name="discount_type" id="discount_type" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                                    role="tab" aria-controls="home" aria-selected="true">$</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                    role="tab" aria-controls="profile" aria-selected="false">%</a>
+                            </li>
+                        </ul>
+                        <br>
                         <button class="btn btn-secondary">POST</button>
                     </form>
                 </div>

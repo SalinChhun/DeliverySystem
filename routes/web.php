@@ -49,6 +49,7 @@ use App\Http\Controllers\ContactController;
 
  Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'index');
+   //  Route::get('/', 'getAllCategories');
     Route::post('/', 'createProduct');
  });
 
