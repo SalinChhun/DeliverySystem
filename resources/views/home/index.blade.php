@@ -68,205 +68,47 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section class="py-0">
-
+        
         <div class="container">
             <div class="row h-100 gx-2 mt-7">
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
-                    <div class="card card-background card-span text-white rounded-3">
-                        <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png" alt="..." />
-                        <div class="card-img-overlay ps-0">
-                            <span class="badge bg-danger p-2 ms-3">
-                                <i class="fas fa-tag me-2 fs-0"></i>
-                                <span class="fs-0">20% off</span></span>
-                            <span class="badge bg-primary ms-2 me-1 p-2">
-                                <i class="fas fa-clock me-1 fs-0"></i>
-                                <span class="fs-0">Fast</span>
-                            </span>
-                        </div>
-                        <div class="card-body ps-0">
-                            <div class="d-flex align-items-center mb-3">
-                                {{-- <img class="img-fluid" src="assets/img/gallery/food-world-logo.png" alt="" /> --}}
-                                <div class="flex-1 ms-3">
-                                    <h5 class="mb-0 fw-bold text-1000">Food world</h5>
-                                    <span class="text-primary fs--1 me-1">
-                                        <i class="fas fa-star"></i>
-                                    </span>
-                                    <span class="mb-0 text-primary">$$$ . noodle yummy</span>
-                                    <div class="text-primary fs--1 me-1">
-                                        <i class="fas fa-clock me-1 fs-0"></i>
-                                        <span>20 min .</span>&nbsp;
-                                        <i class="fas fa-motorcycle me-2"></i>
-                                        <span>Free</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
+                {{-- product card --}}
+                @foreach ($allProduct as $item)
+                    <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
+                        <div class="card card-background card-span text-white rounded-3">
+                            <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png"
+                                alt="..." />
+                            <div class="card-img-overlay ps-0">
+                                <span class="badge bg-danger p-2 ms-3">
+                                    <i class="fas fa-tag me-2 fs-0"></i>
+                                    <span class="fs-0">20% off</span></span>
+                                <span class="badge bg-primary ms-2 me-1 p-2">
+                                    <i class="fas fa-clock me-1 fs-0"></i>
+                                    <span class="fs-0">Fast</span>
+                                </span>
+                            </div>
+                            <div class="card-body ps-0">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-1 ms-3">
+                                        <h5 class="mb-0 fw-bold text-1000">{{ $item->name }}</h5>
+                                        <span class="text-primary fs--1 me-1">
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span class="mb-0 text-primary">$$$ . noodle yummy</span>
+                                        <div class="text-primary fs--1 me-1">
+                                            <i class="fas fa-clock me-1 fs-0"></i>
+                                            <span>20 min .</span>&nbsp;
+                                            <i class="fas fa-motorcycle me-2"></i>
+                                            <span>Free</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
                 {{-- modal card body --}}
-                <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1"
-                    aria-hidden="true">
+                <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">

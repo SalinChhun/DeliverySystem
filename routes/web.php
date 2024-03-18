@@ -49,6 +49,7 @@ use App\Http\Controllers\ContactController;
 
  Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'index');
+    Route::post('/', 'createProduct');
  });
 
 Route::get('all', [AddToCardController ::class,'index']);
