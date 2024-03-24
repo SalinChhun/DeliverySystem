@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "40529563e51fdf85ab87e9406a85317d",
     "packages": [
         {
             "name": "brick/math",
@@ -5650,6 +5650,80 @@
                 }
             ],
             "time": "2022-03-08T17:03:00+00:00"
+        },
+        {
+            "name": "wcc/laravel-jquery",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/chengluck/laravel-jquery",
+                "reference": "d73d65b825b546afb517e683bcb316abfd1172b8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wcc\\LaravelJquery\\JqueryServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wcc\\LaravelJquery\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "chengcheng",
+                    "email": "wangcheng_luck@163.com"
+                }
+            ],
+            "description": "Laravel Jquery",
+            "time": "2020-04-10T12:19:06+00:00"
+        },
+        {
+            "name": "wcc/laravel-toastr",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/chengluck/laravel-toastr",
+                "reference": "830fadf4c0ee4b889b1627d5278eaa16125bfcb8"
+            },
+            "require": {
+                "wcc/laravel-jquery": "1.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wcc\\LaravelToastr\\ToastrServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Wcc\\LaravelToastr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "chengcheng",
+                    "email": "wangcheng_luck@163.com"
+                }
+            ],
+            "description": "Toastr",
+            "time": "2020-04-10T14:00:38+00:00"
         },
         {
             "name": "webmozart/assert",

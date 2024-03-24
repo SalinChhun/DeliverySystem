@@ -96,10 +96,37 @@ class HomeController extends Controller
     {
         // $name = $request->input('name');
 
+        // dd($request->discount_type);
         $request->validate([
             'price' => 'required',
         ]);
 
+        $disType = $request->discount_type;
+        $disVal = $request->discount_values;
+        $price = $request->price;
+        $totalAmount = 0;
+
+        if ($disType == 0) {
+            $checkDisVal = true;
+            $totalAmount = $price - $disVal;
+            if ($disVal > $price) {
+                return response()->json(['error' => 'Discount value cannot be greater than the price'], 422);
+                // session()->flash('error', 'Discount value cannot be greater than the price');
+                // // Redirect back with the error message
+                // return redirect()->back();
+            }
+        } elseif ($disType == 1) {
+            $discountAmount = ($disVal / 100) * $price;
+            $totalAmount = $price - $discountAmount;
+            if ($disVal > 100) {
+                return response()->json(['error' => 'Discount value cannot be greater than the price'], 422);
+                // session()->flash('error', 'Discount value cannot be greater than the price');
+                // // Redirect back with the error message
+                // return redirect()->back();
+            }
+        }
+
+        // dd($totalAmount);
         // Handle file upload
 
         try {
@@ -112,6 +139,8 @@ class HomeController extends Controller
                 'status' => 'Selling',
                 'size' => $request->size,
                 'discount_type' => $request->discount_type,
+                'discount_values' => $request->discount_values,
+                'total_amount' => $totalAmount,
                 'category_id' => $request->category_id,
                 'user_id' => $request->user_id,
             );

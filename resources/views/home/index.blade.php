@@ -130,19 +130,28 @@
                                     <path
                                         d="M25,2C12.319,2,2,12.319,2,25s10.319,23,23,23s23-10.319,23-23S37.681,2,25,2z M33.71,32.29c0.39,0.39,0.39,1.03,0,1.42	C33.51,33.9,33.26,34,33,34s-0.51-0.1-0.71-0.29L25,26.42l-7.29,7.29C17.51,33.9,17.26,34,17,34s-0.51-0.1-0.71-0.29	c-0.39-0.39-0.39-1.03,0-1.42L23.58,25l-7.29-7.29c-0.39-0.39-0.39-1.03,0-1.42c0.39-0.39,1.03-0.39,1.42,0L25,23.58l7.29-7.29	c0.39-0.39,1.03-0.39,1.42,0c0.39,0.39,0.39,1.03,0,1.42L26.42,25L33.71,32.29z" />
                                 </svg> --}}
-                                <svg style="cursor: pointer" data-bs-dismiss="modal" class="btn-close-modal"
-                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
-                                    viewBox="0,0,256,256">
-                                    <g fill="#fcc419" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                        <g transform="scale(5.12,5.12)">
-                                            <path
-                                                d="M25,2c-12.681,0 -23,10.319 -23,23c0,12.681 10.319,23 23,23c12.681,0 23,-10.319 23,-23c0,-12.681 -10.319,-23 -23,-23zM33.71,32.29c0.39,0.39 0.39,1.03 0,1.42c-0.2,0.19 -0.45,0.29 -0.71,0.29c-0.26,0 -0.51,-0.1 -0.71,-0.29l-7.29,-7.29l-7.29,7.29c-0.2,0.19 -0.45,0.29 -0.71,0.29c-0.26,0 -0.51,-0.1 -0.71,-0.29c-0.39,-0.39 -0.39,-1.03 0,-1.42l7.29,-7.29l-7.29,-7.29c-0.39,-0.39 -0.39,-1.03 0,-1.42c0.39,-0.39 1.03,-0.39 1.42,0l7.29,7.29l7.29,-7.29c0.39,-0.39 1.03,-0.39 1.42,0c0.39,0.39 0.39,1.03 0,1.42l-7.29,7.29z">
-                                            </path>
-                                        </g>
+                            
+                                <svg style="cursor: pointer" style="cursor: pointer" data-bs-dismiss="modal" width="33"
+                                    height="32" viewBox="0 0 33 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_8868_3901)">
+                                        <rect x="0.5" width="32" height="32" rx="16" fill="#C2C5DC"
+                                            fill-opacity="0.9" />
+                                        <path
+                                            d="M11.5219 20.9726C11.1537 20.6107 11.1664 19.9696 11.5092 19.6269L15.14 15.996L11.5092 12.3778C11.1664 12.0287 11.1537 11.3939 11.5219 11.0258C11.89 10.6513 12.5311 10.664 12.8739 11.0131L16.4984 14.6376L20.1229 11.0131C20.4784 10.6576 21.1005 10.6576 21.4686 11.0258C21.8431 11.3939 21.8431 12.016 21.4813 12.3778L17.8632 15.996L21.4813 19.6205C21.8431 19.9823 21.8368 20.598 21.4686 20.9726C21.1068 21.3407 20.4784 21.3407 20.1229 20.9853L16.4984 17.3607L12.8739 20.9853C12.5311 21.3344 11.8964 21.3407 11.5219 20.9726Z"
+                                            fill="#0A0019" />
                                     </g>
+                                    <defs>
+                                        <filter id="filter0_b_8868_3901" x="-49.5" y="-50" width="132" height="132"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_8868_3901" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_8868_3901" result="shape" />
+                                        </filter>
+                                    </defs>
                                 </svg>
                                 {{-- </button> --}}
                             </div>

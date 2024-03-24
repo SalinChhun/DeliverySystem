@@ -165,17 +165,45 @@
                             </div>
 
                             <div class="selectDisPriceContainer">
-                                <input placeholder="Discount" type="text" class="inputProductDisPrice">
+                                {{-- <input placeholder="Discount" type="text" class="inputProductDisPrice">
                                 <div class="chooseDisType">
-                                    <ul class="nav nav-tabs-dis-price" name="discount_type" id="discount_type" role="tablist">
+                                    <ul class="nav nav-tabs-dis-price" id="discount_type" role="tablist">
                                         <li class="nav-item-dis-price-dollar">
-                                            <a class="nav-link-dollar active" id="home-tab" data-toggle="tab"
+                                            <a name = "discount_type" class="nav-link-dollar active" id="home-tab" data-toggle="tab"
                                                 href="#home" role="tab" aria-controls="home"
                                                 aria-selected="true">$</a>
                                         </li>
                                         <li class="nav-item-dis-price-percent">
                                             <a class="nav-link-percent" id="profile-tab" data-toggle="tab" href="#profile"
                                                 role="tab" aria-controls="profile" aria-selected="false">%</a>
+                                        </li>
+                                    </ul>
+                                </div> --}}
+
+                                <input placeholder="Discount" type="text" class="inputProductDisPrice"
+                                    name="discount_values"> <!-- Assuming this is your input for price -->
+
+                                <!-- Hidden input field to store the discount type -->
+                                <input type="hidden" id="discount_type_input" name="discount_type" value=0>
+                                <!-- Default value is $ -->
+
+                                <div class="chooseDisType">
+                                    <ul class="nav nav-tabs-dis-price" role="tablist">
+                                        <li class="nav-item-dis-price-dollar">
+                                            <a class="nav-link-dollar active" id="home-tab" data-toggle="tab"
+                                                href="#home" role="tab" aria-controls="home"
+                                                aria-selected="true" onclick="updateDiscountType(0)">
+                                                <!-- Update discount type to $ -->
+                                                $
+                                            </a>
+                                        </li>
+                                        <li class="nav-item-dis-price-percent">
+                                            <a class="nav-link-percent" id="profile-tab" data-toggle="tab"
+                                                href="#profile" role="tab" aria-controls="profile"
+                                                aria-selected="false" onclick="updateDiscountType(1)">
+                                                <!-- Update discount type to % -->
+                                                %
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -216,6 +244,13 @@
         </div>
     </div>
 
+    <script>
+        function updateDiscountType(discountType) {
+            console.log("Updating discount type to:", discountType);
+            document.getElementById('discount_type_input').value = discountType;
+        }
+    </script>
+
     @section('js')
         <script>
             //Preview one img
@@ -238,3 +273,5 @@
             }
         </script>
     @endsection
+
+    
