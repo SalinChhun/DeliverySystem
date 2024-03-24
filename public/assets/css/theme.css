@@ -41,6 +41,156 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
 }
 
+.btn-post-product {
+    background-color: #7010DF !important;
+    margin-top: 18px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* input product info */
+.inputProductInfo {
+    width: 100%;
+    height: 210px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.selectCatContainer {
+    height: 20%;
+    border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+.selectCategory {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.selectCategory:focus{
+    border-bottom: 1px solid rgb(82, 105, 249);
+    outline: none !important;
+}
+
+.inputProductTitleContainer {
+    height: 20%;
+    border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+.inputProductTitle {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.inputProductTitle:focus{
+    border-bottom: 1px solid rgb(82, 105, 249);
+    outline: none !important;
+}
+
+.inputProductPriceContainer {
+    height: 20%;
+    border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+.inputProductPrice {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.inputProductPrice:focus{
+    border-bottom: 1px solid rgb(82, 105, 249);
+    outline: none !important;
+}
+
+.selectDisPriceContainer {
+    height: 20%;
+    padding-right: 15px;
+    display: flex;
+    border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+.inputProductDisPrice {
+    width: 80%;
+    border: none;
+    padding: 10px;
+}
+
+.inputProductDisPrice:focus{
+    border-bottom: 1px solid rgb(82, 105, 249);
+    outline: none !important;
+}
+
+.chooseDisType {
+    width: 20%;
+}
+
+.active {
+    background-color: white !important;
+}
+
+.nav-tabs-dis-price {
+    background-color: #F2F4FF !important;
+    padding: 8px 13px 5px 5px !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center !important; /* Center items horizontally */
+    align-items: center !important; /* Optional: Center items vertically */
+    border-radius: 5px !important;
+}
+
+.nav-item-dis-price-dollar {
+    width: 50%;
+    height: 100% !important;
+}
+
+.nav-item-dis-price-percent {
+    width: 50%;
+    height: 100% !important;
+}
+
+.nav-link-dollar {
+    margin-top: 10px !important;
+    padding: 4px 16px !important;
+    height: 100% !important;
+    border-radius: 5px;
+}
+
+.nav-link-percent {
+    padding: 4px 16px !important;
+    height: 100% !important;
+    border-radius: 5px;
+    
+}
+
+.inputProductDescContainer {
+    height: 20%;
+}
+
+.inputProductDesc {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.inputProductDesc:focus{
+    border-bottom: 1px solid rgb(82, 105, 249);
+    outline: none !important;
+}
+
 .h-100{
     height: 200px;
 }
@@ -72,6 +222,8 @@
     background-color: #FFB30E;
     border: none;
 }
+
+
 
 .footer-modal {
     display: flex;

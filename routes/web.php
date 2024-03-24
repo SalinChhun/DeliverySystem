@@ -51,6 +51,13 @@ use App\Http\Controllers\ContactController;
     Route::get('/', 'index');
    //  Route::get('/', 'getAllCategories');
     Route::post('/', 'createProduct');
+
+
+   //  Route::get('upload','index');
+    Route::post('upload/save', 'save');
+    Route::post('upload/savemulti', 'savemulti');
+    Route::view('upload_multiple','upload_multi');
+
  });
 
 Route::get('all', [AddToCardController ::class,'index']);

@@ -68,20 +68,28 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section class="py-0">
-        
+
         <div class="container">
             <div class="row h-100 gx-2 mt-7">
 
                 {{-- product card --}}
-                @foreach ($allProduct as $item)
+                @foreach ($products as $p)
                     <div class="col-sm-6 col-md-4 h-100 mb-5" data-bs-toggle="modal" data-bs-target="#scrollBodyModal">
                         <div class="card card-background card-span text-white rounded-3">
-                            <img class="img-fluid card-mage-radius image-card-height"src="assets/img/gallery/food-world.png"
-                                alt="..." />
+                            @if (!empty($p['photos']))
+                                <!-- Display the first photo -->
+                                <img class="img-fluid card-mage-radius image-card-height" src="{{ $p['photos'][0] }}"
+                                    alt="...">
+                            @else
+                                <!-- If no photos available, display a placeholder image -->
+                                <img class="img-fluid card-mage-radius image-card-height"
+                                    src="path/to/placeholder-image.png" alt="...">
+                            @endif
                             <div class="card-img-overlay ps-0">
                                 <span class="badge bg-danger p-2 ms-3">
                                     <i class="fas fa-tag me-2 fs-0"></i>
-                                    <span class="fs-0">20% off</span></span>
+                                    <span class="fs-0">20% off</span>
+                                </span>
                                 <span class="badge bg-primary ms-2 me-1 p-2">
                                     <i class="fas fa-clock me-1 fs-0"></i>
                                     <span class="fs-0">Fast</span>
@@ -90,7 +98,7 @@
                             <div class="card-body ps-0">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="flex-1 ms-3">
-                                        <h5 class="mb-0 fw-bold text-1000">{{ $item->name }}</h5>
+                                        <h5 class="mb-0 fw-bold text-1000">{{ $p['name'] }}</h5>
                                         <span class="text-primary fs--1 me-1">
                                             <i class="fas fa-star"></i>
                                         </span>
@@ -107,13 +115,36 @@
                         </div>
                     </div>
                 @endforeach
+
+
                 {{-- modal card body --}}
-                <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal fade" id="scrollBodyModal" data-bs-keyboard="false" tabindex="-1"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title">Flat Hill Slingback</h5>
-                                <button data-bs-dismiss="modal" class="btn-close-modal">x</button>
+                                {{-- <button data-bs-dismiss="modal" class="btn-close-modal"> --}}
+                                {{-- <svg data-bs-dismiss="modal" class="btn-close-modal" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 50 50" width="50px" height="50px">
+                                    <path
+                                        d="M25,2C12.319,2,2,12.319,2,25s10.319,23,23,23s23-10.319,23-23S37.681,2,25,2z M33.71,32.29c0.39,0.39,0.39,1.03,0,1.42	C33.51,33.9,33.26,34,33,34s-0.51-0.1-0.71-0.29L25,26.42l-7.29,7.29C17.51,33.9,17.26,34,17,34s-0.51-0.1-0.71-0.29	c-0.39-0.39-0.39-1.03,0-1.42L23.58,25l-7.29-7.29c-0.39-0.39-0.39-1.03,0-1.42c0.39-0.39,1.03-0.39,1.42,0L25,23.58l7.29-7.29	c0.39-0.39,1.03-0.39,1.42,0c0.39,0.39,0.39,1.03,0,1.42L26.42,25L33.71,32.29z" />
+                                </svg> --}}
+                                <svg style="cursor: pointer" data-bs-dismiss="modal" class="btn-close-modal"
+                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                    viewBox="0,0,256,256">
+                                    <g fill="#fcc419" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(5.12,5.12)">
+                                            <path
+                                                d="M25,2c-12.681,0 -23,10.319 -23,23c0,12.681 10.319,23 23,23c12.681,0 23,-10.319 23,-23c0,-12.681 -10.319,-23 -23,-23zM33.71,32.29c0.39,0.39 0.39,1.03 0,1.42c-0.2,0.19 -0.45,0.29 -0.71,0.29c-0.26,0 -0.51,-0.1 -0.71,-0.29l-7.29,-7.29l-7.29,7.29c-0.2,0.19 -0.45,0.29 -0.71,0.29c-0.26,0 -0.51,-0.1 -0.71,-0.29c-0.39,-0.39 -0.39,-1.03 0,-1.42l7.29,-7.29l-7.29,-7.29c-0.39,-0.39 -0.39,-1.03 0,-1.42c0.39,-0.39 1.03,-0.39 1.42,0l7.29,7.29l7.29,-7.29c0.39,-0.39 1.03,-0.39 1.42,0c0.39,0.39 0.39,1.03 0,1.42l-7.29,7.29z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                {{-- </button> --}}
                             </div>
                             <div class="modal-body h-9">
 
